@@ -9,8 +9,6 @@ use yii\di\Instance;
 
 /**
  * Class Env
- *
- * @author Roman Zhuravlev <zhuravljov@gmail.com>
  */
 class Env extends BaseObject {
     
