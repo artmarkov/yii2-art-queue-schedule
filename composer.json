@@ -1,0 +1,21 @@
+{
+  "name": "artsoft/yii2-art-queue-schedule",
+  "description": "Queue Schedule Module For Art CMS",
+  "license": "Apache-2.0",
+  "authors": [    
+    {
+      "name": "Artur Markov",
+      "email": "artmarkov@mail.ru"
+    }
+  ],
+  "require": {
+    "artsoft/yii2-art-core": "dev-master",
+    "yiisoft/yii2-queue": "^2.3",
+    "dragonmantank/cron-expression": "^2.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "artsoft\\queue\\": ""
+    }
+  }
+}
