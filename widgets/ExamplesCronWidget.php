@@ -27,7 +27,7 @@ class ExamplesCronWidget extends Widget {
             ['cron' => '5 10 */9 * *', 'text' => Yii::t('art/queue', 'Run in 10:05 every 9 days.')],
             ['cron' => '0 0-12/3 */15 * *', 'text' => Yii::t('art/queue', 'Run every 3 hours in period between 0 to 12 hours a day every 15 days.')],
             ['cron' => '0 0 * 5 4', 'text' => Yii::t('art/queue', 'Run in Midnight every Thursday in May.')],
-            ['cron' => '0 0 * * 1,7', 'text' => Yii::t('art/queue', 'Run Midnight every Saturday and Sunday.')],
+            ['cron' => '0 0 * * 6,7', 'text' => Yii::t('art/queue', 'Run Midnight every Saturday and Sunday.')],
             ['cron' => '0 12 * * 0-4', 'text' => Yii::t('art/queue', 'Run at Noon every Sunday through Thursday.')],
             ['cron' => '0 0 * * 5L', 'text' => Yii::t('art/queue', 'Run every last Friday of the month.')],
             ['cron' => '0 0 * * 3#4', 'text' => Yii::t('art/queue', 'Run every fourth Wednesday of the month.')],
