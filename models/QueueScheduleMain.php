@@ -120,7 +120,7 @@ class QueueScheduleMain extends ActiveRecord
      * @return int array
      */
     public static function cronNextDates($cron, int $qty = 10) {       
-        return $cron->getMultipleRunDates($qty);
+        return $cron->getMultipleRunDates($qty, 'now', false, false, Yii::$app->formatter->timeZone);
     }
 }
 
